@@ -36,8 +36,7 @@
 
 <script type="text/template" id="stats-template">
     <span id="todo-count"><strong><%= remaining %></strong>
-    <%= remaining === 1 ? 'item' : 'items' %> left
-    </span>
+    <%= remaining === 1 ? 'item' : 'items' %> left  </span>
      <ul id="filters">
          <li>
              <a class="selected" href="#/">All</a>
@@ -51,7 +50,7 @@
      </ul>
     <% if (completed){ %>
     <button id="clear-completed">Clear completed (<%= completed %>)</button>
-    <% { %>
+    <% } %>
 </script>
 
 <script type="text/javascript" src="JavaScript/lib/jquery-1.11.1.js"></script>
@@ -64,6 +63,7 @@
 <script type="text/javascript" src="JavaScript/routers/router.js"></script>
 <script type="text/javascript" src="JavaScript/views/appViews.js"></script>
 <script type="text/javascript" src="JavaScript/views/app.js"></script>
+<script type="text/javascript" src="JavaScript/routers/router.js"></script>
 <script type="text/javascript" src="JavaScript/app.js"></script>
 
 </body>

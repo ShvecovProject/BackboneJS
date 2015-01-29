@@ -2,6 +2,7 @@
  * Created by Shvecov on 22.01.2015.
  */
 var app = app || {};
+
 var TasksList = Backbone.Collection.extend({
 
    model:app.TaskModel,
