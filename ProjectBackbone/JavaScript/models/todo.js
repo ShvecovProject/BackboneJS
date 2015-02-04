@@ -4,11 +4,11 @@
 var app = app || {};
 
 app.TaskModel = Backbone.Model.extend({
-   defaults:{
+   defaults:{     //дефолтные поля
        title:"",
        completed:false
    },
-    toggle:function(){
+    toggle:function(){  //функция переключения состояния
         this.save({
             completed:!this.get('completed')
         });
