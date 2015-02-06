@@ -3,10 +3,10 @@
  */
 var app = app||{};
 
-app.TaskView = Backbone.View.extend({
-   tagName:'li',
-    template: _.template($('#item-template').html()),
-    events:{
+app.TaskView = Backbone.View.extend({// view отображения 1 задачи
+   tagName:'li',// элемент
+    template: _.template($('#item-template').html()),// шаблон который используется
+    events: {
         'click .toggle' : 'togglecompleted',
         'dbclick label' : 'edit',
         'click .destroy' : 'clear',
