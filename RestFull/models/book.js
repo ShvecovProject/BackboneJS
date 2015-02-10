@@ -6,6 +6,7 @@ app.Book = Backbone.Model.extend({
    defaults:{
        coverImage:'img/book.png',
        title:'NoTitle',
+       releaseDate:'None',
        author:'Unknown',
        keywords:'None'
    }
