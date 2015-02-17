@@ -1,7 +1,7 @@
 body{
     background-color: #eee;
 }
-/*.bookContainer{
+.bookContainer{
     outline: 1px solid #aaa;
     width: 350px;
     height:130px;
@@ -22,8 +22,7 @@ body{
     margin: 10px;
 }
 #addBook label{
-    width:100px;
-    margin-right: 10px;
+
     text-align: right;
     line-height:25px;
 }
@@ -31,6 +30,7 @@ body{
     display: block;
     margin-bottom: 10px;
     float: left;
+    margin-left: 10px;
 }
 #addBook label[for="title"], #addBook label[for="releaseDate"]{
     clear:both;
@@ -42,14 +42,14 @@ body{
     clear:both;
 }
 #addBook div{
-    width: 550px;
+    width: 610px;
 }
 #addBook div:after{
-    content:"",
+    content:"";
     display: block;
     height: 0;
     visibility: hidden;
     clear: both;
     font-size: 0;
     line-height: 0;
-}*/
+}
